@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6ts-Q9-jJT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uvM-pk-IT9">
+            <objects>
+                <viewController id="6ts-Q9-jJT" customClass="ViewController" customModule="SchoolsChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zYO-sq-Nph">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Rgq-5s-36T">
+                                <rect key="frame" x="0.0" y="44" width="414" height="690"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" red="0.8747351766" green="0.92178672549999996" blue="0.90588217969999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nB9-eg-0i3">
+                                <rect key="frame" x="24" y="758" width="366" height="42"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xva-lN-ItD" userLabel="button1">
+                                        <rect key="frame" x="0.0" y="0.0" width="91.5" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="eek-xU-9Jh"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemTealColor"/>
+                                        <state key="normal" image="1.circle" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="semibold"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="animationButtonPressed:" destination="6ts-Q9-jJT" eventType="touchUpInside" id="DEa-qI-45s"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBe-tk-I5x" userLabel="button2">
+                                        <rect key="frame" x="91.5" y="0.0" width="91.5" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="Wk7-Pt-2og"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemTealColor"/>
+                                        <state key="normal" image="2.circle" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="semibold"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="animationButtonPressed:" destination="6ts-Q9-jJT" eventType="touchUpInside" id="gX5-8p-9DM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1N-xd-eS6" userLabel="button3">
+                                        <rect key="frame" x="183" y="0.0" width="91.5" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="0Qb-5J-hwI"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemTealColor"/>
+                                        <state key="normal" image="3.circle" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="semibold"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="animationButtonPressed:" destination="6ts-Q9-jJT" eventType="touchUpInside" id="VKN-ue-eRe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbF-0A-gI5" userLabel="button4">
+                                        <rect key="frame" x="274.5" y="0.0" width="91.5" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="Awc-MU-U05"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemTealColor"/>
+                                        <state key="normal" image="4.circle" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="semibold"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="animationButtonPressed:" destination="6ts-Q9-jJT" eventType="touchUpInside" id="1qf-Pp-75V"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.8747351766" green="0.92178672549999996" blue="0.90588217969999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gTT-4k-Qob"/>
+                        <color key="backgroundColor" red="0.8747351766" green="0.92178672549999996" blue="0.90588217969999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nB9-eg-0i3" firstAttribute="top" secondItem="Rgq-5s-36T" secondAttribute="bottom" constant="24" id="B5f-p2-eZw"/>
+                            <constraint firstItem="gTT-4k-Qob" firstAttribute="trailing" secondItem="Rgq-5s-36T" secondAttribute="trailing" id="Coa-FB-h6j"/>
+                            <constraint firstItem="Rgq-5s-36T" firstAttribute="top" secondItem="gTT-4k-Qob" secondAttribute="top" id="KGZ-4m-zqZ"/>
+                            <constraint firstItem="Rgq-5s-36T" firstAttribute="height" secondItem="zYO-sq-Nph" secondAttribute="height" multiplier="0.77" id="PK5-Ta-Shv"/>
+                            <constraint firstItem="gTT-4k-Qob" firstAttribute="trailing" secondItem="nB9-eg-0i3" secondAttribute="trailing" constant="24" id="ScC-xF-Y5E"/>
+                            <constraint firstItem="Rgq-5s-36T" firstAttribute="leading" secondItem="gTT-4k-Qob" secondAttribute="leading" id="yK5-DI-JBk"/>
+                            <constraint firstItem="nB9-eg-0i3" firstAttribute="leading" secondItem="gTT-4k-Qob" secondAttribute="leading" constant="24" id="ycj-qV-ner"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GM7-XP-Z5S"/>
+                    <connections>
+                        <outlet property="button1" destination="Xva-lN-ItD" id="oqF-AW-pcs"/>
+                        <outlet property="button2" destination="cBe-tk-I5x" id="Hrw-dk-hdD"/>
+                        <outlet property="button3" destination="v1N-xd-eS6" id="uU8-Ny-wLk"/>
+                        <outlet property="button4" destination="VbF-0A-gI5" id="TtQ-9Q-xvm"/>
+                        <outlet property="tableView" destination="Rgq-5s-36T" id="HdJ-Kp-fKE"/>
+                        <segue destination="2Au-Ec-QZu" kind="show" identifier="schoolDetailVC" id="5na-69-FRv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GP0-FT-L0E" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="360"/>
+        </scene>
+        <!--School Detail View Controller-->
+        <scene sceneID="Eqc-4m-Sah">
+            <objects>
+                <tableViewController id="2Au-Ec-QZu" customClass="SchoolDetailViewController" customModule="SchoolsChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7DP-ru-r5a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" red="0.8747351766" green="0.92178672549999996" blue="0.90588217969999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="MVR-vj-4ag">
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MVR-vj-4ag" id="ECV-mx-rOx">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" red="0.8747351766" green="0.92178672549999996" blue="0.90588217969999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.8747351766" green="0.92178672549999996" blue="0.90588217969999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2Au-Ec-QZu" id="JQn-Zc-rjR"/>
+                            <outlet property="delegate" destination="2Au-Ec-QZu" id="3c8-Gn-W88"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="G3j-2q-inz"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1AX-yg-GcJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1883" y="466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.circle" catalog="system" width="128" height="121"/>
+        <image name="2.circle" catalog="system" width="128" height="121"/>
+        <image name="3.circle" catalog="system" width="128" height="121"/>
+        <image name="4.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
